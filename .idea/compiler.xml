@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="student-praise" />
+        <module name="student-gateway" />
+        <module name="student-user" />
+        <module name="student-config" />
+        <module name="student-admin" />
+        <module name="student-data" />
+        <module name="student-openid-api" />
+        <module name="student-user-balance-api" />
+        <module name="student-sentinel" />
+        <module name="student-common" />
+        <module name="student-user-balance" />
+        <module name="student-oauth" />
+        <module name="student-openid-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="student-provider" target="1.5" />
+      <module name="student-user-api" target="1.8" />
+      <module name="student-user-balance-api" target="1.8" />
+      <module name="student-user-balance-service" target="1.8" />
+      <module name="student-user-service" target="1.8" />
+      <module name="student-user-service (1)" target="1.8" />
+      <module name="student-visual" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

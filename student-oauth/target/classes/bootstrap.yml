@@ -1,0 +1,23 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: student-oauth
+  cloud:
+    zookeeper:
+      connect-string: 120.53.225.156:2181
+    nacos:
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEV_GROUP
+        namespace: e672b2a4-c0f0-4752-931f-9f8101d533bb
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #配置Sentinel dashboard地址
+        port: 8719
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true

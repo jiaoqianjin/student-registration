@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/student-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-oauth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-oauth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-openid/student-openid-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-openid/student-openid-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-openid/student-openid-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-openid/student-openid-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-praise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-praise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-user-balance/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-user-balance/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-visual/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-visual/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-visual/student-sentinel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-visual/student-sentinel/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

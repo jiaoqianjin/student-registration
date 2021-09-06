@@ -1,0 +1,7 @@
+com\marchsoft\service\impl\OpenIdServiceImpl.class
+com\marchsoft\entity\OpenId.class
+com\marchsoft\mapper\OpenIdMapper.class
+com\marchsoft\OpenIdApplication.class
+com\marchsoft\controller\OpenIdController.class
+com\marchsoft\service\IOpenIdService.class
+com\marchsoft\utils\WeiXinUtil.class

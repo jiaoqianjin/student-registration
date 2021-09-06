@@ -1,0 +1,19 @@
+#8001表示注册到zookeeper服务器的服务提供者端口号
+server:
+  port: 8002
+
+#服务别名----注册zookeeper到注册中心名称
+spring:
+  application:
+    name: student-user
+  cloud:
+    zookeeper:
+      connect-string: 120.53.225.156:2181
+    nacos:
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        group: DEV_GROUP
+        namespace: e672b2a4-c0f0-4752-931f-9f8101d533bb
+  profiles:
+    active: dev
