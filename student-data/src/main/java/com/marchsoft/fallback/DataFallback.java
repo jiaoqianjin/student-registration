@@ -6,7 +6,6 @@ import com.marchsoft.response.ResponseResult;
 import com.marchsoft.response.enums.ResponseEnum;
 import com.marchsoft.response.exception.BaseException;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
@@ -17,7 +16,7 @@ import java.util.Map;
  * @author jiaoqianjin
  * Date: 2021/8/9 9:25
  **/
-@Component
+//@Component
 @Slf4j
 public class DataFallback implements StudentClient {
     @Override

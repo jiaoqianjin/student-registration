@@ -7,8 +7,10 @@ spring:
   application:
     name: student-admin
   cloud:
-    zookeeper:
-      connect-string: 120.53.225.156:2181
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: e672b2a4-c0f0-4752-931f-9f8101d533bb
 
   #druid数据源
   datasource:

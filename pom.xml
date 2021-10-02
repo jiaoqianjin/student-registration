@@ -17,11 +17,9 @@
         <module>student-admin</module>
         <module>student-openid</module>
         <module>student-praise</module>
-        <module>student-config</module>
         <module>student-user-balance</module>
-        <module>student-visual</module>
-        <module>student-visual</module>
         <module>student-oauth</module>
+        <module>student-monitor</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -102,7 +100,7 @@
             </dependency>
 
             <!--    mybatis plus相关  start  -->
-            <dependency>
+                <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis.plus.version}</version>

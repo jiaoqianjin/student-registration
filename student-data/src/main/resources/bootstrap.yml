@@ -5,10 +5,21 @@ server:
 spring:
   application:
     name: student-data
+  boot:
+    admin:
+      client:
+        url: http://localhost:8769   #这里配置admin server 的地址
+  zipkin: #<-------------------------------------关键
+    base-url: http://localhost:9411
+  sleuth: #<-------------------------------------关键
+    sampler:
+      #采样率值介于 0 到 1 之间，1 则表示全部采集
+      probability: 1
   cloud:
-    zookeeper:
-      connect-string: 120.53.225.156:2181
     nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: e672b2a4-c0f0-4752-931f-9f8101d533bb
       config:
         server-addr: localhost:8848 #Nacos作为配置中心地址
         file-extension: yaml #指定yaml格式的配置
@@ -33,3 +44,6 @@ spring:
 #    enabled: true
 ##    # 指定需要饥饿加载的服务名，也就是你需要调用的服务，若有多个则用逗号隔开
 #    clients: student-user
+feign:
+  hystrix:
+    enabled: false

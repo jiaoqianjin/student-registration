@@ -1,11 +1,7 @@
 package com.marchsoft.client;
 
-import com.marchsoft.config.MyRandomRule;
 import com.marchsoft.entity.*;
-import com.marchsoft.fallback.DataFallback;
 import com.marchsoft.response.ResponseResult;
-import com.netflix.loadbalancer.RetryRule;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,7 +15,7 @@ import java.util.Map;
  * @author jiaoqianjin
  * Date: 2021/7/27 17:35
  **/
-@FeignClient(value = "student-user", fallback = DataFallback.class)
+@FeignClient(value = "student-user")
 public interface StudentClient {
     @GetMapping(value = "/api/students/getRankingList")
     Object getRankingList(@RequestParam("page") Integer page, @RequestParam("size") Integer size);

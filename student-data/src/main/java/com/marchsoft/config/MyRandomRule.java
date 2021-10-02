@@ -16,6 +16,6 @@ import org.springframework.context.annotation.Configuration;
 public class MyRandomRule {
     @Bean
     public IRule myRule(){
-        return new CustomRule();
+        return new RandomRule();
     }
 }
