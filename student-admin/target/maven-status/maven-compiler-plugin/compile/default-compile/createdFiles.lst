@@ -1,8 +1,0 @@
-com\marchsoft\mapper\AdminMapper.class
-com\marchsoft\AdminApplication.class
-com\marchsoft\utils\Base64Util.class
-com\marchsoft\service\impl\AdminServiceImpl.class
-com\marchsoft\utils\TokenUtil.class
-com\marchsoft\entity\Admin.class
-com\marchsoft\service\IAdminService.class
-com\marchsoft\controller\AdminController.class

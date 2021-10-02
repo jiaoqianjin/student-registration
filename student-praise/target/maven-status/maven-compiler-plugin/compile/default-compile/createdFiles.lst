@@ -1,8 +1,0 @@
-com\marchsoft\PraiseApplication.class
-com\marchsoft\entity\StudentPraise.class
-com\marchsoft\mapper\StudentPraiseMapper.class
-com\marchsoft\client\OpenIdClient.class
-com\marchsoft\controller\StudentPraiseController.class
-com\marchsoft\service\IStudentPraiseService.class
-com\marchsoft\service\impl\StudentPraiseServiceImpl.class
-com\marchsoft\client\StudentClient.class

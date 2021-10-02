@@ -1,9 +1,0 @@
-com\marchsoft\controller\DataController.class
-com\marchsoft\service\DataService.class
-com\marchsoft\entity\dto\StudentInfosDto.class
-com\marchsoft\utils\GetLatAndLngByAddressUtils.class
-com\marchsoft\DataApplication.class
-com\marchsoft\config\ApplicationContextConfig.class
-com\marchsoft\fallback\DataFallback.class
-com\marchsoft\client\StudentClient.class
-com\marchsoft\controller\ReportsController.class
